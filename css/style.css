@@ -1,0 +1,49 @@
+
+
+
+
+
+
+
+
+/* ==================Text Box Css=========== */
+
+div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+#text{
+     border: 2px solid red;
+    padding: 10px;
+    font-size: 22px;
+    font-weight: bold;
+    width: 575px;
+    height: 300px;
+    resize: none;
+    outline: none;
+}
+.btn{
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+    column-gap: 10px;
+}
+button{
+    padding: 15px 20px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+}
+button:active{
+    background: #000;
+    color: white;
+}
+
+/* ==================Text Box Css=========== */
